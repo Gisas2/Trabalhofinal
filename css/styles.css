@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    border: 5px solid #fffffc;
+}
+
+section.primeira-coluna {
+    width: 45vw;
+    height: 100vh;
+    background-image: url("../images/paginarecados.jpg");
+    background-size: cover;
+    position: absolute;
+    left: 0;
+}
+
+section.segunda-coluna {
+    width: 55vw;
+    height: 100vh;
+   background-color: #e1e5ee;
+   position: absolute;
+   right: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+form.col {
+    display: flex;
+    flex-direction: column;
+}
+
+div.recados {
+    text-align: left;
+    margin-left:5px ;
+}
+
+a {
+    text-decoration:none;
+    color: #d34f73;
+}
+
+div {
+   text-align: center;
+}
+
+input {
+    width: 250px;
+    height: 40px;
+    font-size: 15px;
+    margin-bottom:20px;
+}
+
+button {
+    display: block;
+    font-size: 15px;
+    width: 512px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    color: #fafaff;
+    background-color: #6bf178;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    width: 500px; 
+    height: 40px
+}
+
+button.botao-salvar {
+    display:inline-block;
+    font-size: 15px;
+    width: 100px; 
+    height: 43px;
+    background-color: #2374ab;  
+    border-radius: 5px 
+}
+
+h2 {
+    margin-bottom: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: #822e81;
+}
+
+h2.titulo {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: #822e81;
+    text-align: left;
+}
+
+p {
+    word-spacing: 200px;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #131200;
+    
+}
+
+button.btn-editar {
+    width: 80px;
+     height: 30px;
+     cursor: pointer;
+     border: none;
+     border-radius: 15px;
+     color: white;
+    background-color: blue;
+  }
+  
+  button.btn-apagar {
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background-color: red;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 30px;
+  }
+  
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+
+
+
